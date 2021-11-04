@@ -1,0 +1,453 @@
+ #blog h3,h4 {
+    text-align: center;
+    padding: 10px;
+    background: rgba(51,51,51,0.9);
+    border-radius: 50px;
+    color: white;
+}
+
+#blog h4 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#blog .contenedor {
+/*    display: flex;*/
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+    width: 450px;
+}
+
+#blog article h4 {
+    background: rgba(51,51,51,0.9);
+    cursor: pointer;
+}
+
+#blog .listas {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    border: solid;
+    border-width: thin;
+    background: #CACACA;
+    overflow: auto;
+    z-index: 2;
+}
+
+#blog .listas p {
+    position: sticky;
+    padding: 8px;
+    font-size: 17px;
+}
+
+#blog .listas p:hover {
+    background: rgba(255,255,255,0.8);
+}
+
+.buscador #buscador input [type=input]{
+    margin: 0 auto;
+    width: 370px;
+    line-height: 2;
+    background-color: red;
+}
+
+#buscador p{
+    width: 100%;
+    font-size: 20px;
+    background-color: red;
+}
+
+#blog #conciertos {
+    min-width: 928px;
+
+}
+
+#blog #votos {
+    min-width: 928px;
+}
+
+#blog article #vot {
+    width:928px;
+}
+
+#blog article #conc {
+    width: 928px;
+}
+
+#blog article #conciertos #conclocal {
+    border: solid;
+    border-width: thin;
+    background: rgba(255,255,255,.8);
+    border-right-style: none;
+    border-left-style: none;
+}
+
+#blog article #votos table {
+    border: none;
+    border-collapse: collapse;
+    border-width: thin;
+    width: 100%;
+    font-size: 15px;
+    height: 100%;
+}
+
+#blog article #conciertos table {
+    border: none;
+    border-collapse: collapse;
+    border-width: thin;
+    width: 100%;
+    font-size: 15px;
+    height: 298px;
+}
+
+#blog article #votos table tr td {
+    padding: 1px;
+}
+
+#blog article #conciertos table tr td {
+    padding: 1px;
+}
+
+#blog article #votos #titulosvotos td {
+    padding: 7px;
+    font-size: 18px;
+    background: rgba(255,255,255,.8);
+    border-color: rgba(55,55,55,.2);
+}
+
+#blog article #conciertos #titulos td {
+    padding: 7px;
+    font-size: 18px;
+    background: rgba(255,255,255,.8);
+    border-color: rgba(55,55,55,0.2);
+
+}
+
+#blog article #votos {
+    height: 375px;
+}
+
+#blog article #conciertos {
+    height: 375px;
+}
+
+#siguiente {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left: 500px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0px 0px 15px black;   
+}
+
+#siguiente:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#siguiente span {
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left:  -23px;
+    position: absolute;
+}
+
+#ultima {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left: 570px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#ultima:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#ultima span {
+    font-size: 28px;
+    margin-top: 9px;
+    margin-left: -19px;
+    position: absolute;
+}
+
+#anterior {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left: 360px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#anterior span {
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left: -26px;
+    position: absolute;
+}
+
+#anterior:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#primera {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-left: 290px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#primera:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#primera span {
+    font-size: 28px;
+    margin-top: 9px;
+    margin-left: -19px;
+    position: absolute;
+}
+
+#conciertos #paginado {
+    border: solid;
+    border-width: thin;
+    margin-top: 15px;
+    margin-left: 430px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: left;
+    border-radius: 50px;
+    font-size: 29px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#blog article #conciertos #datos td {
+    padding: 0px;
+    font-size: 16px;
+}
+
+#blog article #conciertos #datos:hover {
+    background: rgba(255,255,255,.9);
+    cursor: pointer;
+}
+
+#blog article #votos #datosvotos:hover {
+    background: rgba(255,255,255,.9);
+    cursor: pointer;
+}
+
+#blog #busc {
+    border:solid;
+    border-width: thin;
+    width: 400px;
+    border-radius: 25px;
+    padding: 15px;
+    background: rgba(55,55,55,0.1);
+    margin: 15 auto;
+    font-size: 18px;
+}
+
+#blog #busc form input[type=text]{
+    padding: 2px;
+    margin-left: 55px;
+    background: rgba(255,255,255,0.7);
+    border-color: #fff;
+    width: 200px;
+    height: 30px;
+}
+
+#blog #busc form input[type=submit] {
+    padding: 15px;
+    position: absolute;
+    font-size: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: rgba(55,55,55,20);
+    height:70px;
+    margin-top: -20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#autobuscador{  
+    cursor:pointer;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    text-align: center;
+}  
+
+.autobuscar{  
+    background: rgba(255,255,255);
+    padding:12px;  
+}  
+
+.autobuscar:hover {
+    background: rgba(255,255,255);
+    border: solid;
+    border-width: thin;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+@media (max-width:1005px) {
+    
+    
+    #blog .contenedor #votos {
+        margin-left: 0%;
+    }
+    
+    #blog .contenedor {
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }   
+    /**/
+    #blog #votos {
+        min-width: 70px;
+    }
+    
+    #blog #conciertos {
+        min-width: 70px;
+        
+    }
+    
+    /**/
+    #blog article #vot {
+        width: 450px;
+    }
+
+    #blog article #conc {
+        width: 450px;
+    }
+
+    #siguiente {
+        margin-top: 5px;
+        margin-left: 270px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #siguiente span {
+        font-size: 30px;
+        margin-top: 4px;
+        margin-left:  -20px;
+        position: absolute;
+    }
+
+    #ultima {
+        margin-top: 5px;
+        margin-left: 340px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #ultima span {
+        font-size: 24px;
+        margin-top: 6px;
+        margin-left: -16px;
+        position: absolute;
+    }
+
+    #anterior {
+        margin-top: 5px;
+        margin-left: 120px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #anterior span {
+        font-size: 30px;
+        margin-top: 4px;
+        margin-left: -23px;
+        position: absolute;
+    }
+
+    #primera {
+        margin-top: 5px;
+        margin-left: 50px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #primera span {
+        font-size: 24px;
+        margin-top: 6px;
+        margin-left: -16px;
+        position: absolute;
+    }
+
+    #conciertos #paginado {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 195px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .recuadro {
+
+        max-width: 450px;
+        height: 500px;
+    }
+
+    .recuadro #tablabuscador {
+        margin-left: 0px;
+        margin-top: 30px;
+        width: 400px;
+    }
+
+    .recuadro #tituloss {
+        background: rgba(255,255,255,.8);
+    }
+
+    .recuadro table tr:hover {
+        background: rgba(255,255,255,.9);
+        cursor: pointer;
+    }
+}

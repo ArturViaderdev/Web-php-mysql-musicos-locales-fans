@@ -1,0 +1,775 @@
+/*@import url(https://fonts.googleapis.com/css?gamily=Open+Sans);
+@import url(menuMiperfilLocal.css);
+@import url(bannerMiPerfilLocal.css);
+@import url(infoMiperfilLocal.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos {
+    text-align: center;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a span {
+    margin-left: 10px;
+    
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.submenuu {
+    background-color: rgba(255,255,255,0.2);
+    list-style: none;
+}
+
+.menuuser {
+    list-style: none;
+}
+
+.menuuser a span {
+    margin-left: 10px;
+}
+
+.menuuser a:hover {
+    display: block;
+}
+
+form #botoncerrar {
+    width: 170px;
+    padding: 10px;
+    border-radius: 15px;
+    border: thin;
+    margin-top: 190px;
+}
+
+form #botoncerrar:hover {
+    cursor: pointer;
+    background: rgba(51,51,51,0.5);
+    box-shadow: 0px 0px 35px #fff;
+    color: #fff;
+}
+
+.menuLocal ul ul {
+    display: none;
+}
+
+.menuLocal ul {
+    list-style: none;
+}
+
+.menuLocal a span {
+    margin-left: 10px;
+    
+}
+
+.menuLocal ul li:hover ul {
+    display: block;
+}
+*/
+/*#formulariodatos {
+    width: 1000px;
+    height: 700px;
+    margin-left: 100px;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse; 
+    text-align: center;
+    border: none;
+}
+
+#izquierda {
+    width: 500px;
+}
+
+table tr {
+    height: 35px;
+}
+
+table tr td {
+    border: none;
+    border-color: #fff;
+}
+
+table input {
+    border: none;
+    padding: 7px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+table select {
+    border: none;
+    padding: 7px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.file-input {
+      visibility: hidden;
+      width: 0;
+      position: relative;
+}
+
+.file-input::before {
+      content: 'Selecciona una imagen';
+      display: inline-block;
+      background: #fff;
+      border: solid;
+      border-width: thin;
+      padding: 7px;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 15px;
+      visibility: visible;
+      position: absolute;
+    margin-left: -250px;
+    margin-top: -5.5px;
+    width: 483px;
+    text-align: center;
+}
+
+#botones {
+    border: none;
+}
+
+#botones input {
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botones input:hover {
+    background: rgba(55,55,55,.3);
+    color: #fff;
+    box-shadow: -0px -0px 4px 2px rgba(255,255,255,.5);
+}
+
+.data {
+    border: solid;
+    border-width: thin;
+    border-color: #fff;
+    background: rgba(255,255,255,.3);
+}*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos {
+    text-align: center;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a span {
+    margin-left: 10px;
+    
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.submenuu {
+    background-color: rgba(255,255,255,0.2);
+    list-style: none;
+}
+
+.menuuser {
+    list-style: none;
+}
+
+.menuuser a span {
+    margin-left: 10px;
+}
+
+.menuuser a:hover {
+    display: block;
+}
+
+form #botoncerrar {
+    width: 170px;
+    padding: 10px;
+    border-radius: 15px;
+    border: thin;
+    margin-top: 190px;
+}
+
+form #botoncerrar:hover {
+    cursor: pointer;
+    background: rgba(51,51,51,0.5);
+    box-shadow: 0px 0px 35px #fff;
+    color: #fff;
+}
+
+.menuLocal ul ul {
+    display: none;
+}
+
+.menuLocal ul {
+    list-style: none;
+}
+
+.menuLocal a span {
+    margin-left: 10px;
+    
+}
+
+.menuLocal ul li:hover ul {
+    display: block;
+}
+
+/*********************************/
+
+
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    color: #fff;
+}
+
+#banner h2 {
+    margin-top: -25%;
+    font-size: 28px;
+}
+
+#banner a {
+    position: relative;
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    top: -17px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+#banner img {
+    height: 1000px;
+    width: 2700px;
+}
+
+
+#centro {
+    border: solid;
+    margin-top: -950px;
+    margin-left: 80px;
+    position: absolute;
+    background: rgba(51,51,51,0.6);
+    border: none;
+    border-radius: 50px;
+    width: 1750px;
+    height: 800px; 
+    
+}
+
+#centro p {
+    font-size: 20px;
+    padding: 18px;
+    color: #fff;
+}
+
+#usuario {
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 45px 25px;
+    border: solid;
+    border: none;
+    background: rgba(255,255,255,0.3);
+}
+
+#usuario p {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 150px;
+}
+
+#info {
+    position: absolute;
+    border: solid;
+    border-width: thin;
+    border-radius: 150px;
+    width: 130px;
+    height: 130px;
+    margin-top: -120px;
+    margin-left: 10px;
+}
+
+#info img {
+    width: 130px;
+    height: 130px;
+    margin-top: -32px;
+    margin-left: -21.5px;
+    cursor: pointer;
+}
+
+#centro ul {
+    border: none;
+    margin-top: 311px;
+    margin-left: 25px;;
+    position: absolute;
+    list-style: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#centro ul li a {
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;   
+    border: none;
+    text-align: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#centro ul li a:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+#miperfil {
+    border: none;
+    position: absolute;
+    width: 1400px;
+    height: 700px;
+    border-radius: 50px;
+    margin-left: 700px;
+}
+
+#miperfil #tituloperfil {
+    text-align: center;
+    background: rgba(55,55,55,0.7);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 16px 36px black;
+    border: none;
+}
+
+
+
+
+#formulariodatos {
+    width: 1000px;
+    height: 700px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse; 
+    text-align: center;
+    border: none;
+    margin-left: -300px;
+    margin-top: -50px;
+}
+
+#izquierda {
+    width: 200px;
+}
+
+table tr {
+    height: 35px;
+}
+
+table tr td {
+    border: none;
+    border-color: #fff;
+}
+
+table input {
+    border: none;
+    padding: 7px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+table select {
+    border: none;
+    padding: 7px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.file-input {
+      visibility: hidden;
+      width: 0;
+      position: relative;
+}
+
+.file-input::before {
+      content: 'Selecciona una imagen';
+      display: inline-block;
+      background: #fff;
+      border: solid;
+      border-width: thin;
+      padding: 7px;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 15;
+      visibility: visible;
+      position: absolute;
+    margin-left: -295px;
+    margin-top: -5.5px;
+    width: 483px;
+    text-align: center;
+}
+
+#botones {
+    border: none;
+}
+
+#botones input {
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botones input:hover {
+    background: rgba(55,55,55,.3);
+    color: #fff;
+    box-shadow: -0px -0px 4px 2px rgba(255,255,255,.5);
+}
+
+.data {
+    border: solid;
+    border-width: thin;
+    border-color: #fff;
+    background: rgba(255,255,255,.3);
+}
+
+.menuLocal #boton1 {
+    width: 270px;
+    border-radius: 0px;
+    /*
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    */
+}
+
+
+
+.menuLocal #boton1:hover {
+    border: solid;
+    border-width: thin;
+    border-color:#fff;
+    border-right-style: none;
+}
+
+#submenudiv {
+    border: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 8px;
+    border-left-style: none;
+    
+    width: 371px;
+    
+    margin-left: 245px;
+    margin-top: -410px;
+    
+    background-color: rgba(255,255,255,0.4);
+}
+
+#submenudiv li a{
+    top:0px;
+}
+
+#submenudiv li a:hover  {
+    width: 370px; 
+    color: black;
+    border-radius: 0px;
+}
+
+
+/******************************/
+
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(51,51,51,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    
+}
+
+.menu p {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    
+}
+
+.menu footer {
+    margin-top: 500px;
+}
+
+.menu footer a {
+    color: #fff;
+}
+
+#boton {
+    cursor: pointer;
+}
+
+.menu a:hover {
+    background: rgba(51,51,51,0.5);
+    
+}
+
+#menu-bar:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+#menu-user {
+    display: none;
+}
+
+header #label1 {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.menuuser {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    height: 100vh;
+    background: rgba(51,51,51,.9);
+    transition: all 0.5s;
+    transform: translateX(100%);
+}
+
+.menuuser a {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.menuuser a:hover {
+    background: rgba(255,255,255,.3);
+}
+
+#menu-user:checked ~ .menuuser {
+    transform: translateX(70%);
+}
+
+
+/*****************************************/
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1000px;
+}
+
+.info-music {
+    margin: 20px;
+}
+
+.info-music img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+#info h4 {
+    padding: 10%;
+}
+

@@ -1,0 +1,189 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    color: #fff;
+}
+
+#banner h2 {
+    margin-top: -25%;
+    font-size: 28px;
+}
+
+#banner a {
+    position: relative;
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    top: -17px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+#banner #im {
+    height: 1000px;
+    width: 2700px;
+}
+
+#informulariodatos table {
+    border-collapse: collapse;
+    border-color: #fff;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(55,55,55,.6);
+    color: rgba(55,55,55,.9);
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 40px;
+    position: relative;
+}
+
+#informulariodatos table .pe {
+    font-size: 15px;
+    color: rgba(55,55,55,.8);
+    padding: 0px;
+}
+
+#informulariodatos table .data {
+    background: rgba(255,255,255,.8);
+    font-size: 18px;
+}
+
+#informulariodatos table tr td  {
+    border-color: #fff;
+    padding: 5px;
+}
+
+#informulariodatos input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#informulariodatos select {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+#centro {
+    border: solid;
+    margin-top: -950px;
+    margin-left: 80px;
+    position: absolute;
+    background: rgba(51,51,51,0.6);
+    border: none;
+    border-radius: 50px;
+    width: 1750px;
+    height: 800px; 
+}
+
+#centro p {
+    font-size: 58px;
+    padding: 18px;
+    color: #fff;
+}
+
+#textarea {
+    width: 300px;
+    height: 300px;
+    background:transparent;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 17px;
+    
+    font-family: sans-serif;
+}
+
+#informacion {
+    border: solid;
+    border-width: thin;
+    width: 550px;
+    height: 690px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -530px;
+    background: rgba(51,51,51,0.5);
+    padding: 25px;
+}
+
+#informacion .infoo {
+    font-size: 20px;
+}
+
+.content-all {
+    width: 210px;
+    perspective: 1000px;
+    position: relative;
+    margin-left: 395px;
+    margin-top: 70px;
+}
+
+.content-carrousel {
+    width: 100%;
+    position: absolute;
+    animation: rotar 50s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.content-carrousel figure {
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    
+    transition: all 300ms;
+}
+
+.contet-carrousel figure:hover {
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
+/*1 7*/
+.content-carrousel img {
+    width: 80%;   
+    transition: all 300ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+@keyframes rotar {
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}

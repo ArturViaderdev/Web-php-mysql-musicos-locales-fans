@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?gamily=Open+Sans);
+@import url(menuMusico.css);
+@import url(bannerMusico.css);
+@import url(infoMusico.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos {
+    text-align: center;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a span {
+    margin-left: 10px;
+    
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.submenuu {
+    background-color: rgba(255,255,255,0.2);
+    list-style: none;
+}
+
+.menuuser {
+    list-style: none;
+}
+
+.menuuser a span {
+    margin-left: 10px;
+}
+
+.menuuser a:hover {
+    display: block;
+}
+
+
+
+
+#menu-user {
+    display: none;
+}
+
+header #label1 {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.menuuser {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    height: 100vh;
+    background: rgba(51,51,51,.9);
+    transition: all 0.5s;
+    transform: translateX(100%);
+}
+
+.menuuser a {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.menuuser a:hover {
+    background: rgba(255,255,255,.3);
+}
+
+#menu-user:checked ~ .menuuser {
+    transform: translateX(70%);
+}
+
+
+form #botoncerrar {
+    width: 170px;
+    padding: 10px;
+    border-radius: 15px;
+    border: thin;
+    margin-top: 190px;
+}
+
+form #botoncerrar:hover {
+    cursor: pointer;
+    background: rgba(51,51,51,0.5);
+    box-shadow: 0px 0px 35px #fff;
+    color: #fff;
+}
+
+.noti {
+    border: solid;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+    border-color: #fff;
+}
+
+#noticias .noti p {
+    font-size: 19px;
+    display: inline;
+}
+
+#noticias .noti a {
+    width: 100%;
+    height: 100px;
+    border: none;
+}
+
+#noticias .noti a img {
+    width: 100%;
+    height: 200px;
+    margin-top: -80px;
+}
+
+#tabla1 {
+    border-collapse: collapse;
+    width: 600px;
+    height: 250px;
+    margin: 35px;
+}
+
+#tabla1 tr td {
+    border: solid;
+    border-width: thin;
+    border-color: rgba(255,255,255,.4);
+    padding: 15px;
+    font-size: 20px;
+}
+
+#tabla1 input {
+    border: none;
+    background: rgba(55,55,55,.0);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+
+#tabla2 {
+    border-collapse: collapse;
+    width: 600px;
+    height: 250px;
+    margin: 35px;
+}
+
+#tabla2 tr td {
+    border: solid;
+    border-width: thin;
+    border-color: rgba(255,255,255,.4);
+    padding: 15px;
+    font-size: 20px;
+}
+
+#tabla2 input {
+    border: none;
+    background: rgba(55,55,55,.0);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+#siguiente {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: 0px;
+    margin-left: 390px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0px 0px 15px black;   
+}
+
+#siguiente:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#siguiente span {
+    font-size: 35px;
+    margin-left:  -23px;
+    position: absolute;
+}
+
+#ultima {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: -50px;
+    margin-left: 510px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#ultima:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#ultima span {
+    font-size: 28px;
+    margin-top: 3px;
+    margin-left: -19px;
+    position: absolute;
+}
+
+#anterior {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-top: -50px;
+    margin-left: 210px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#anterior span {
+    font-size: 35px;
+    margin-left: -26px;
+    position: absolute;
+}
+
+#anterior:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#primera {
+    border: solid;
+    border-width: thin;
+    text-decoration: none;
+    color: black;
+    margin-left: 90px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0px 0px 15px black; 
+}
+
+#primera:hover {
+    background: rgba(55,55,55,.3);
+    box-shadow: 0px 0px 45px white;
+}
+
+#primera span {
+    font-size: 28px;
+    
+    margin-left: -19px;
+    position: absolute;
+}
+
+#paginado {
+
+    margin-left: 330px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    font-size: 29px;
+    background: rgba(55,55,55,.0);
+}
+
+.links a{
+    border: none;
+}

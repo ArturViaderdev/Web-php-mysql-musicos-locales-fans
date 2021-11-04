@@ -1,0 +1,238 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    color: #fff;
+}
+
+#banner h2 {
+    margin-top: -25%;
+    font-size: 28px;
+}
+
+#banner a {
+    position: relative;
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    top: -17px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+#banner #fotobanner {
+    height: 1000px;
+    width: 2700px;
+}
+
+#centro {
+    border: solid;
+    margin-top: -950px;
+    margin-left: 80px;
+    position: absolute;
+    background: rgba(51,51,51,0.6);
+    border: none;
+    border-radius: 50px;
+    width: 1750px;
+    height: 800px; 
+    
+}
+
+#centro p {
+    font-size: 58px;
+    padding: 18px;
+    color: #fff;
+}
+
+#noticias {
+    border: none;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: rgba(255,255,255,0.3);
+    width: 1250px;
+    height: 600px;
+    overflow-y: scroll;
+    border-radius: 15px;
+}
+
+#titulonoticias p {
+    font-size: 35px;
+}
+
+#usuario {
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 45px 25px;
+    border: solid;
+    border: none;
+    background: rgba(255,255,255,0.3);
+}
+
+#rlocal a{
+    width: 500px;
+    font-size: 30px;
+    height: 80px;
+    padding: 25px;
+    margin-left: 870px;
+    border: none;
+    background: rgba(51,51,51,0.6);
+    border-radius: 50px;
+    box-shadow: 0 0 55px rgba(255,255,255,0.9);
+}
+
+#rlocal a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+#usuario p {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 150px;
+}
+
+#info {
+    position: absolute;
+    border: solid;
+    border-width: thin;
+    border-radius: 150px;
+    width: 130px;
+    height: 130px;
+    margin-top: -120px;
+    margin-left: 10px;
+}
+
+#centro ul {
+    border: none;
+    margin-top: 311px;
+    margin-left: 25px;;
+    position: absolute;
+    list-style: none;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#centro ul li a {
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;   
+    
+    border: none;
+    text-align: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#centro ul li a:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+#centro ul li a {
+    
+}
+
+#centro ul li .contiertos {
+    
+}
+
+.menuLocal #boton1 {
+    width: 270px;
+    border-radius: 0px;
+    /*
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    */
+}
+
+.menuLocal #boton1:hover {
+    border: solid;
+    border-width: thin;
+    border-color:#fff;
+    border-right-style: none;
+}
+
+#submenudiv {
+    border: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 8px;
+    border-left-style: none;
+    
+    width: 371px;
+    
+    margin-left: 245px;
+    margin-top: -410px;
+    
+    background-color: rgba(255,255,255,0.4);
+}
+
+#submenudiv li a{
+    top:0px;
+}
+
+#submenudiv li a:hover  {
+    width: 370px; 
+    color: black;
+    border-radius: 0px;
+}
+
+#crearconcierto table {
+    margin-left: 1200px;
+    border-collapse: collapse;
+    border: solid;
+    border-width: thin;
+    text-align: center;
+    width: 365px;
+    border-color: rgba(255,255,255,.3);
+}
+
+#crearconcierto input {
+    width: 97%;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 4px;
+}
+
+#crearconcierto select {
+    text-align: center;
+    width: 97%;
+    height: 100%;
+    padding: 5px;
+    margin: 4px;
+}
+
+#crearconcierto table #titulo p {
+    background: rgba(55,55,55,.9);
+    color: #fff;
+    font-size: 25px;
+}
+
+#crearconcierto table td p {
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+}
+
+#crearconcierto table .data {
+    background: rgba(255,255,255,.8);
+}
+
+#crearconcierto table .data p {
+    color: rgba(55,55,55,.9);
+}

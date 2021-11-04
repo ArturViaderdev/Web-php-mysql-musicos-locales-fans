@@ -1,0 +1,140 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    color: #fff;
+}
+
+#banner h2 {
+    margin-top: -25%;
+    font-size: 28px;
+}
+
+#banner a {
+    position: relative;
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    top: -17px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+#banner img {
+    height: 1000px;
+    width: 2700px;
+}
+
+#centro {
+    border: solid;
+    margin-top: -950px;
+    margin-left: 80px;
+    position: absolute;
+    background: rgba(51,51,51,0.6);
+    border: none;
+    border-radius: 50px;
+    width: 2300px;
+    height: 880px;
+    
+}
+
+#centro p {
+    font-size: 58px;
+    padding: 18px;
+    color: #fff;
+}
+
+#titulonoticias {
+    border: none;
+    position: absolute;
+    margin-left: 1870px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50px;
+}
+
+#noticias {
+    border: none;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1830px;
+    background-color: rgba(255,255,255,0.3);
+    width: 385px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#titulonoticias p {
+    font-size: 35px;
+}
+
+#usuario {
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 45px 25px;
+    border: solid;
+    border: none;
+    background: rgba(255,255,255,0.3);
+}
+
+#usuario p {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 150px;
+}
+
+#info {
+    position: absolute;
+    border: solid;
+    border-width: thin;
+    border-radius: 150px;
+    width: 130px;
+    height: 130px;
+    margin-top: -120px;
+    margin-left: 10px;
+}
+
+#info img {
+    width: 130px;
+    height: 130px;
+    margin-top: -32px;
+    margin-left: -21.5px;
+    cursor: pointer;
+}
+
+#centro ul {
+    border: none;
+    margin-top: 311px;
+    margin-left: 25px;;
+    position: absolute;
+    list-style: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#centro ul li a {
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;   
+    border: none;
+    text-align: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#centro ul li a:hover {
+    background: rgba(255,255,255,0.4);
+}

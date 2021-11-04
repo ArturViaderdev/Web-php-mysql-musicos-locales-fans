@@ -1,0 +1,333 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    color: #fff;
+}
+
+#banner h2 {
+    margin-top: -25%;
+    font-size: 28px;
+}
+
+#banner a {
+    position: relative;
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    top: -17px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+#banner img {
+    height: 1000px;
+    width: 2700px;
+}
+
+#centro {
+    border: solid;
+    margin-top: -950px;
+    margin-left: 80px;
+    position: absolute;
+    background: rgba(51,51,51,0.6);
+    border: none;
+    border-radius: 50px;
+    width: 1780px;
+    height: 880px;
+
+}
+
+#centro p {
+    font-size: 58px;
+    padding: 18px;
+    color: #fff;
+}
+
+#titulonoticias {
+    border: none;
+    position: absolute;
+    margin-left: 1230px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50px;
+}
+
+#conciertosInteres {
+    border: none;
+    position: absolute;
+    margin-left: 500px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50px;
+}
+
+#conciertosInteres p {
+    font-size: 30px;
+}
+
+#contenidoInteres {
+    border: none;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 500px;
+    background-color: rgba(255,255,255,0.3);
+    width: 685px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#contenidoInteres .links a {
+    border: double;
+    background: rgba(55,55,55,.8);
+    width: 100%;
+    height: 25%;
+}
+
+#contenidoInteres #formulariodatos table {
+    border: none;
+    border-collapse: collapse;
+    height: 89%;
+    width: 100%;
+    text-align: center;
+}
+
+#contenidoInteres #formulariodatos table .data {
+    border: thin;
+    height: 10px;
+    background: rgba(255,255,255,.7);
+}
+
+#contenidoInteres #formulariodatos table .data td p {
+    color: rgba(55,55,55,.8);
+    padding: 5px;
+}
+
+#contenidoInteres #formulariodatos table tr td select {
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    margin: -11.5px;
+    text-align: center;
+}
+
+#contenidoInteres #formulariodatos table tr td input[type=text] {
+    width: 100%;
+    height: 50px;
+    margin: -19.5px;
+}
+
+textarea {
+    width: 100%;
+    height: 98.5%;
+}
+
+#contenidoInteres #formulariodatos table tr td input[type=submit] {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#contenidoInteres #formulariodatos table tr td p {
+    font-size: 15px;
+}
+
+#contenidoInteres #formulariodatos table .msgs {
+
+}
+
+#contenidoInteres .titulo {
+    font-size: 20px;
+    border: solid;
+    border-width: thin;
+    background: rgba(55,55,55,.8);
+    text-align: center;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+#tablapropuestos {
+    border: solid;
+    border-width: thin;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 600px;
+}
+
+#tablapropuestos .titulodatos {
+    font-size: 19px;
+    text-align: center;
+    background: rgba(255,255,255,.6);
+    color: black;
+}
+
+#tablapropuestos .datos {
+    font-size: 13px;
+    text-align: center;
+}
+
+#tablapropuestos input {
+    height: 50px;
+    width: 100%;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#tablapropuestos #alta {
+    width: 80px;
+}
+
+#tablapropuestos #baja {
+    width: 80px;
+}
+
+#tablapropuestos #alta:hover {
+    background: rgba(105,212,88,.5);
+}
+
+#tablapropuestos #baja:hover {
+    background: rgba(238,38,38,.5);
+}
+
+#formulario {
+    text-align: center;
+}
+
+#formulario select {
+    border: none;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#formulario input {
+    border: solid;
+    border-width: thin;
+    margin-left: 390px;
+    margin-top: -48px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#formulario input:hover {
+    background: rgba(55,55,55,.9);
+    color: #fff;
+}
+
+#tablapropuestos2 {
+    border: solid;
+    border-width: thin;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 600px;
+}
+
+#tablapropuestos2 .datos2 {
+    font-size: 11px;
+    text-align: center;
+}
+
+#tablapropuestos2 .titulos2 {
+    text-align: center;
+    background: rgba(255,255,255,.6);
+    color: black;
+}
+
+#tablapropuestos2 .titulos2 p {
+    font-size: 14px;
+    color: black;
+}
+
+#contenidoInteres p {
+    font-size: 20px;
+}
+
+#noticias {
+    border: none;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1230px;
+    background-color: rgba(255,255,255,0.3);
+    width: 385px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#titulonoticias p {
+    font-size: 35px;
+}
+
+#usuario {
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 45px 25px;
+    border: solid;
+    border: none;
+    background: rgba(255,255,255,0.3);
+}
+
+#usuario p {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 150px;
+}
+
+#info {
+    position: absolute;
+    border: solid;
+    border-width: thin;
+    border-radius: 150px;
+    width: 130px;
+    height: 130px;
+    margin-top: -120px;
+    margin-left: 10px;
+}
+
+#info img {
+    width: 130px;
+    height: 130px;
+    margin-top: -32px;
+    margin-left: -21.5px;
+    cursor: pointer;
+}
+
+#centro ul {
+    border: none;
+    margin-top: 311px;
+    margin-left: 25px;;
+    position: absolute;
+    list-style: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#centro ul li a {
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;   
+    border: none;
+    text-align: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#centro ul li a:hover {
+    background: rgba(255,255,255,0.4);
+}

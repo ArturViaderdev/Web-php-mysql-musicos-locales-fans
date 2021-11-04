@@ -1,0 +1,252 @@
+/*#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-120%);
+    color: #fff;
+}
+
+#banner h2 {
+    margin-top: -25%;
+    font-size: 28px;
+}
+
+#banner a {
+    position: relative;
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    top: -17px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+
+#banner img {
+    height: 1000px;
+    width: 2700px;
+}
+
+
+#centro {
+    border: solid;
+    margin-top: -950px;
+    margin-left: 80px;
+    position: absolute;
+    background: rgba(51,51,51,0.6);
+    border: none;
+    border-radius: 50px;
+    width: 2300px;
+    height: 880px;
+    
+}
+
+#centro p {
+    font-size: 20px;
+    padding: 18px;
+    color: #fff;
+}
+
+#usuario {
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    margin: 45px 25px;
+    border: solid;
+    border: none;
+    background: rgba(255,255,255,0.3);
+}
+
+#usuario p {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 150px;
+}
+
+#info {
+    position: absolute;
+    border: solid;
+    border-width: thin;
+    border-radius: 150px;
+    width: 130px;
+    height: 130px;
+    margin-top: -120px;
+    margin-left: 10px;
+}
+
+#info img {
+    width: 130px;
+    height: 130px;
+    margin-top: -32px;
+    margin-left: -21.5px;
+    cursor: pointer;
+}
+
+#centro ul {
+    border: none;
+    margin-top: 311px;
+    margin-left: 25px;;
+    position: absolute;
+    list-style: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#centro ul li a {
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;   
+    border: none;
+    text-align: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#centro ul li a:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+#miperfil {
+    border: none;
+    position: absolute;
+    background: rgba(255,255,255,0.3);
+    width: 1400px;
+    height: 700px;
+    border-radius: 50px;
+    margin-left: 700px;
+}
+
+#miperfil #tituloperfil {
+    text-align: center;
+    background: rgba(55,55,55,0.7);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 16px 36px black;
+    border: none;
+}
+
+.trarriba {
+    border: solid;
+    
+}
+
+.data {
+    border: solid;
+}
+
+#miperfil #formulariodatos p{
+    font-size: 30px;
+    margin-left: 180px;
+    margin-top: 50px;
+    padding: 1px;
+}
+
+#miperfil #formulariodatos input {
+    width: 230px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: solid;
+    border-width: thin;
+    background: rgba(51,51,51,0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+}
+
+#miperfil #formulariodatos input[type=text] {
+    font-size: 17px;
+}
+
+#miperfil #formulariodatos input[type=submit] {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -90px;
+    height: 45px;
+    font-size: 20px;
+}
+
+#miperfil #formulariodatos input[type=submit]:hover {
+    background: rgba(55,55,55,0.1);
+    cursor: pointer;
+}
+
+#miperfil #formulariodatos #contraseña {
+    position: absolute;
+    margin-left: 200px;
+}
+
+#miperfil #formulariodatos #button {
+    position: absolute;
+    margin-top: -178px;
+}
+
+#miperfil #formulariodatos #select {
+    width: 170px;
+    height: 35px;
+    border-radius: 50px;
+    padding: 5px;
+    background: rgba(55,55,55,0.5);
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+#centro ul li a {
+    
+}
+
+#centro ul li .contiertos {
+    
+}
+
+.menuLocal #boton1 {
+    width: 270px;
+    border-radius: 0px;
+    
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.menuLocal #boton1:hover {
+    border: solid;
+    border-width: thin;
+    border-color:#fff;
+    border-right-style: none;
+}
+
+#submenudiv {
+    border: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 8px;
+    border-left-style: none;
+    
+    width: 371px;
+    
+    margin-left: 245px;
+    margin-top: -410px;
+    
+    background-color: rgba(255,255,255,0.4);
+}
+
+#submenudiv li a{
+    top:0px;
+}
+
+#submenudiv li a:hover  {
+    width: 370px; 
+    color: black;
+    border-radius: 0px;
+}*/
